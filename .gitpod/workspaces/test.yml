@@ -1,0 +1,17 @@
+name : first-workspace
+on : [push]
+jobs : 
+  test-set-1 :
+    runs-on : ubuntu-latest
+    steps :
+      - run : echo "hello world !!"
+
+  test-set-2 :
+    runs-on : ubuntu-latest
+    steps :
+      - run : echo "hello world 2 !!"
+
+  test-set-3 :
+    runs-on : ubuntu-latest
+    steps :
+      - run : echo "hello world 3 !!" 
