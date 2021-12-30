@@ -6,5 +6,6 @@ jobs :
     steps :
       - uses : actions/checkout@v2
       - uses : actions/setup-node@v2
-      - run : cd github-action-ci-cd && npm install 
+      - run : tree
+      # - run : cd github-action-ci-cd && npm install 
       - run : echo "hello world"
