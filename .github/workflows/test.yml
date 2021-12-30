@@ -5,13 +5,9 @@ jobs :
     runs-on : ubuntu-latest
     steps :
       - run : echo "hello world !!"
+      - run : echo "yo jogender thara bhai jogender"
 
   test-set-2 :
     runs-on : ubuntu-latest
     steps :
       - run : echo "hello world 2 !!"
-
-  test-set-3 :
-    runs-on : ubuntu-latest
-    steps :
-      - run : echo "hello world 3 !!" 
