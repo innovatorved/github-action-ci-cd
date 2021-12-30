@@ -3,5 +3,6 @@ on : [push]
 jobs : 
   work-on-repo:
     runs-on : ubuntu-latest
+    steps :
       - uses : actions/checkout@v2
       - run : tree
