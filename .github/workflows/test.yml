@@ -1,7 +1,7 @@
-name : first-workspace
+name : workspace
 on : [push]
 jobs : 
-  work-on-repo:
+  repo:
     runs-on : ubuntu-latest
     steps :
       - uses : actions/checkout@v2
