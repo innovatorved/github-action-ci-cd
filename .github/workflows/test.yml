@@ -6,6 +6,10 @@ jobs :
     steps :
       - uses : actions/checkout@v2
       - uses : actions/setup-node@v2
-      - run : tree
-      - run : npm install && npm run build
-      - run : echo "hello world"
+        with :
+          node-version : '14.17.0'
+      - name : Folder tree Structure
+        run : tree
+
+      - name : Installing Dependency and Build files
+        run : npm install && npm run build
